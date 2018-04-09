@@ -1,0 +1,75 @@
+body {
+  background-color: #2D3142;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  margin: 5% 25% 5% 25%;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #EF8354;
+  height: 10%;
+  padding: 20px;
+  color: black;
+  font-size: 150%;
+}
+
+.App-main {
+  background-color: #BFC0C0;
+  color: #2D3142;
+  padding: 5% 10% 5% 10%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Clear-List, .Reset-List, .Add-button{
+    background-color: #4F5D75; /* Green */
+    border: none;
+    color: #232738;
+    margin: 2%;
+    padding: 10px 15px;
+    font-size: 120%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Show-Todo {
+  margin: 5% 15% 5% 15%;
+  font-size: 120%;
+  text-align: left;
+}
+
+.Check-Box {
+  margin-left: 2%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
